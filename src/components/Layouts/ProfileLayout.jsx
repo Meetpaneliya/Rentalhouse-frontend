@@ -11,6 +11,8 @@ const DashboardLayout = () => {
     setSidebarOpen(!sidebarOpen);
   };
 
+
+  
   return (
     <div className="flex h-screen bg-gray-100">
       <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
